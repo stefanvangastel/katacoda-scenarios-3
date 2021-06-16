@@ -1,0 +1,43 @@
+{
+    "title": "Docker beginner",
+    "description": "Dutch docker beginner pathway",
+    "icon": "fa-docker",
+    "courses": [
+      {
+        "course_id": "01_Containers_starten_en_inspecteren",
+        "title": "1. Containers starten en inspecteren"
+      },
+      {
+        "course_id": "02_Interacteren_met_containers",
+        "title": "2. Interacteren met containers"
+      },
+      {
+        "course_id": "03_Logging",
+        "title": "3. Logging"
+      },
+      {
+        "course_id": "04_Start_stop_inspecteren_en_verwijderen_van_containers",
+        "title": "4. Start, stop, inspecteren en verwijderen van containers"
+      },
+      {
+        "course_id": "05_Creeren_van_images_met_Dockerfiles_1",
+        "title": "5. Creëren van images met Dockerfiles (1/2)"
+      },
+      {
+        "course_id": "06_Creeren_van_images_met_Dockerfiles_2",
+        "title": "6. Creëren van images met Dockerfiles (2/2)"
+      },
+      {
+        "course_id": "07_Demo",
+        "title": "7. Demo"
+      },
+      {
+        "course_id": "08_Multi_stage_builds",
+        "title": "8. Multi-stage builds"
+      },
+      {
+        "course_id": "09_Image_management",
+        "title": "9. Image management"
+      }
+    ]
+  }

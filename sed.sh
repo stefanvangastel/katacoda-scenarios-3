@@ -1,0 +1,1 @@
+sed -e 's,{{execute}},,g' -e 's,^<pre .*>$,```,' -e 's,^</pre>$,```,' 5.1_opdracht.md

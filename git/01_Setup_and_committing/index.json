@@ -1,0 +1,57 @@
+{
+  "title": "1. Setup & Committing",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "10 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "1.1 Setup git",
+      "text": "1.1_opdracht.md",
+      "courseData":"courseBase.sh",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": " 1.2 Git init",
+      "text": "1.2_opdracht.md"
+    },
+    {
+      "title": " 1.3 Git status",
+      "text": "1.3_opdracht.md"
+    },
+    {
+      "title": " 1.4 Git add",
+      "text": "1.4_opdracht.md"
+    },
+    {
+      "title": " 1.5 Git commit",
+      "text": "1.5_opdracht.md"
+    },
+    {
+      "title": " 1.6 Git ignore",
+      "text": "1.6_opdracht.md",
+      "answer": "1.6_antwoord.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "hello-git.py",
+          "target": "/root/myproject"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

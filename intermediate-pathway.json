@@ -1,0 +1,23 @@
+{
+    "title": "Docker intermediate",
+    "description": "Dutch docker intermediate pathway",
+    "icon": "fa-docker",
+    "courses": [
+      {
+        "course_id": "01_Volumes",
+        "title": "1. Volumes"
+      },
+      {
+        "course_id": "02_Networking",
+        "title": "2. Networking"
+      },
+      {
+        "course_id": "03_Environment_variables",
+        "title": "3. Environment Variables"
+      },
+      {
+        "course_id": "04_Docker_compose",
+        "title": "4. Docker Compose"
+      }
+    ]
+  }

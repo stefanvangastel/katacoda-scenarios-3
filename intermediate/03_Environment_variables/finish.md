@@ -1,0 +1,1 @@
+In deze oefening heb je geleerd hoe je met omgevingsvariabelen containers en de applicaties er in kunt configureren. Daarnaast hoe je dynamisch `Dockerfiles` kunt aansturen met gebruik van `ARG`'s en alvast default `ENV`'s kunt zetten in `Dockerfiles`.

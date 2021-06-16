@@ -1,0 +1,7 @@
+FROM debian
+
+RUN mkdir /data
+
+VOLUME ["/data"]
+
+CMD ["bash","-c","ping google.com > /data/pong.txt"]

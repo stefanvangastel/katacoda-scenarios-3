@@ -1,0 +1,57 @@
+{
+  "title": "6. Conflicten",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "10 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "6.0 Clone",
+      "text": "6.0_opdracht.md",
+      "courseData": "setup.sh",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": "6.1 Branch",
+      "text": "6.1_opdracht.md"
+    },
+    {
+      "title": " 6.2 List branches",
+      "text": "6.2_opdracht.md"
+    },
+    {
+      "title": " 6.3 Merge naar master",
+      "text": "6.3_opdracht.md",
+      "courseData": "pre_6.3.sh"
+    },
+    {
+      "title": " 6.4 Push",
+      "text": "6.4_opdracht.md"
+    },
+    {
+      "title": " 6.5 Branches schonen",
+      "text": "6.5_opdracht.md"    
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "committed.py",
+          "target": "~/myproject"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

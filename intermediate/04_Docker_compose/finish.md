@@ -1,0 +1,1 @@
+In deze oefening hebben we een set aan services gestart. Hierbij hebben we gebruik gemaakt van `docker-compose`. Met deze tool maken we een begin aan orchestratie van containers. 

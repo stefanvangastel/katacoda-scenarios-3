@@ -1,0 +1,32 @@
+{
+  "title": "7. Demo",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "15 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "7.1 Demo",
+      "text": "7.1_opdracht.md",
+      "courseData": "delete-images.sh"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "Dockerfile"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "icon": "fa-docker",
+    "uisettings": "dockerfile"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "title": "6. Creëren van images met Dockerfiles (2/2)",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "15 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "6.1 Containers ontsluiten",
+      "text": "6.1_opdracht.md",
+      "courseData": "delete-images.sh"
+    },
+    {
+      "title": "6.2 Eigen Dockerfile 1/2",
+      "text": "6.2_opdracht.md",
+      "answer": "6.2_answer.md",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": "6.3 Eigen Dockerfile 2/2",
+      "text": "6.3_opdracht.md",
+      "answer": "6.3_answer.md",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": "6.4 Image builden en starten",
+      "text": "6.4_opdracht.md",
+      "answer": "6.4_answer.md",
+      "code": "pre-step.sh"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": { 
+      "client": [
+          {
+            "file": "index.html", 
+            "target": "~/"
+          }
+        ] 
+      }
+  },
+  "files": [
+    "Dockerfile"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "icon": "fa-docker",
+    "uisettings": "dockerfile",
+    "showdashboard": true,
+      "dashboards": [
+        {"name": "Nginx webserver", "port": 1337}
+      ]
+    },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

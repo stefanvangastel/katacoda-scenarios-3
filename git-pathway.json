@@ -1,0 +1,30 @@
+{
+    "title": "Git fundamentals",
+    "description": "Dutch git fundamentals pathway",
+    "courses": [
+      {
+        "course_id": "01_Setup_and_committing",
+        "title": "1. Setup & Committen"
+      },
+      {
+        "course_id": "02_Wijzigingen",
+        "title": "2. Wijzigingen"
+      },
+      {
+        "course_id": "03_Samenwerken",
+        "title": "3. Samenwerken"
+      },
+      {
+        "course_id": "04_Ongedaan_maken",
+        "title": "4. Ongedaan maken"
+      },
+      {
+        "course_id": "05_Conflicten",
+        "title": "5. Conflicten"
+      },
+      {
+        "course_id": "06_Branches",
+        "title": "6. Branches"
+      }
+    ]
+  }

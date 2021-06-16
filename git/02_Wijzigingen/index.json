@@ -1,0 +1,61 @@
+{
+  "title": "2. Wijzigingen",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "10 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "2.1 Status",
+      "text": "2.1_opdracht.md",
+      "courseData":"courseBase.sh",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": " 2.2 Diff",
+      "text": "2.2_opdracht.md"
+    },
+    {
+      "title": " 2.3 Add",
+      "text": "2.3_opdracht.md"
+    },
+    {
+      "title": " 2.4 Diff staged",
+      "text": "2.4_opdracht.md"
+    },
+    {
+      "title": " 2.5 Log",
+      "text": "2.5_opdracht.md",
+      "courseData": "commit.sh"
+    },
+    {
+      "title": " 2.6 Show",
+      "text": "2.6_opdracht.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "committed.py",
+          "target": "~/myproject"
+        },
+        {
+          "file": "untracked.py",
+          "target": "~/myproject"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

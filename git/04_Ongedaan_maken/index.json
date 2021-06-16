@@ -1,0 +1,50 @@
+{
+  "title": "4. Ongedaan maken",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "10 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "4.1 Checkout",
+      "text": "4.1_opdracht.md",
+      "courseData": "setup.sh",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": " 4.2 Reset",
+      "text": "4.2_opdracht.md",
+      "courseData": "pre4.2.sh"
+    },
+    {
+      "title": " 4.3 Reset Hard",
+      "text": "4.3_opdracht.md",
+      "courseData": "pre4.2.sh"
+    },
+    {
+      "title": " 4.4 Revert",
+      "text": "4.4_opdracht.md"    
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "committed.py",
+          "target": "~/myproject"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

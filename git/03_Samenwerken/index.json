@@ -1,0 +1,55 @@
+{
+  "title": "3. Samenwerken",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "10 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "3.1 Remote",
+      "text": "3.1_opdracht.md",
+      "answer": "3.1_antwoord.md",
+      "courseData": "setup.sh",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": " 3.2 Push",
+      "text": "3.2_opdracht.md"
+    },
+    {
+      "title": " 3.3 Pull",
+      "text": "3.3_opdracht.md",
+      "courseData": "updateRepo.sh"
+    },
+    {
+      "title": " 3.4 Log",
+      "text": "3.4_opdracht.md"    
+    },
+    {
+      "title": " 3.5 Fetch",
+      "text": "3.5_opdracht.md",
+      "courseData": "updateRepo2.sh"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "committed.py",
+          "target": "~/myproject"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

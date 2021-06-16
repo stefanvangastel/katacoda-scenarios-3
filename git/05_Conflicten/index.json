@@ -1,0 +1,53 @@
+{
+  "title": "5. Conflicten",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "10 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "5.1 Merge",
+      "text": "5.1_opdracht.md",
+      "courseData": "setup.sh",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": " 5.2 Conflict bekijken",
+      "text": "5.2_opdracht.md"
+    },
+    {
+      "title": " 5.3 Conflict oplossen",
+      "text": "5.3_opdracht.md"
+    },
+    {
+      "title": " 5.4 Non-Fast Forward",
+      "text": "5.4_opdracht.md",
+      "courseData": "pre_5.4.sh"
+    },
+    {
+      "title": " 5.5 Rebase",
+      "text": "5.5_opdracht.md"    
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "committed.py",
+          "target": "~/myproject"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

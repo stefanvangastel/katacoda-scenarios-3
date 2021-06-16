@@ -1,10 +1,9 @@
-# Interactive Katacoda Scenarios
+# KataCoda scenario's
 
-[![](http://shields.katacoda.com/katacoda/kixs3/count.svg)](https://www.katacoda.com/kixs3 "Get your profile on Katacoda.com")
+[![](http://shields.katacoda.com/katacoda/stefanvangastel/count.svg)](https://www.katacoda.com/stefanvangastel "Get your profile on Katacoda.com")
 
-Visit https://www.katacoda.com/kixs3 to view the profile and interactive scenarios
+## Docker (beginner)
 
-### Writing Scenarios
-Visit https://www.katacoda.com/docs to learn more about creating Katacoda scenarios
+Visit https://www.katacoda.com/kixs to view the profile and all interactive scenarios
 
-For examples, visit https://github.com/katacoda/scenario-example
+Created using the https://www.katacoda.com/docs

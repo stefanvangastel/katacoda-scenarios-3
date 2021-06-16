@@ -1,0 +1,1 @@
+In deze oefening heb je geleerd hoe je data persistent kan opslaan binnen containers en hoe je hiervoor Volumes kunt gebruiken. Daarnaast heb je geoefend met het delen van data tussen containers mbv deze volumes.

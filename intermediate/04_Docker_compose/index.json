@@ -1,0 +1,51 @@
+{
+  "title": "4. Docker-compose",
+  "description": "",
+  "difficulty": "intermediate",
+  "time": "20 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "4.1 Een compose app starten",
+      "text": "4.1_opdracht.md",
+      "courseData": "clear-images.sh"
+    },
+    {
+      "title": " 4.2 Een compose app schalen",
+      "text": "4.2_opdracht.md",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": " 4.3 Een compose app upgraden & opruimen",
+      "text": "4.3_opdracht.md",
+      "code": "pre-step.sh"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": { 
+      "client": [
+          {
+            "file": "*", 
+            "target": "~/"
+          }
+        ] 
+      }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "icon": "fa-docker",
+    "uisettings": "dockerfile",
+    "showdashboard": true,
+      "dashboards": [
+        {"name": "Wordpress", "port": 80}
+      ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "4. Start, stop, inspecteren en verwijderen van containers",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "10 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "4.1 Starten, herstarten en stoppen van Containers",
+      "text": "4.1_opdracht.md"
+    },
+    {
+      "title": "4.2 Inspecteren van een container",
+      "text": "4.2_opdracht.md",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": "4.3 Verwijderen van Containers",
+      "text": "4.3_opdracht.md",
+      "code": "pre-step.sh"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "icon": "fa-docker"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

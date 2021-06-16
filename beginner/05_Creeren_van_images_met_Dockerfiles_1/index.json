@@ -1,0 +1,42 @@
+{
+  "title": "5. Creëren van images met Dockerfiles (1/2)",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "15 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "5.1 Maken van een Dockerfile",
+      "text": "5.1_opdracht.md",
+      "courseData": "delete-images.sh"
+    },
+    {
+      "title": "5.2 Gebruik maken van build cache",
+      "text": "5.2_opdracht.md",
+      "code": "pre-step.sh"
+    },
+    {
+      "title": "5.3 Image geschiedenis",
+      "text": "5.3_opdracht.md",
+      "code": "pre-step.sh"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "Dockerfile"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "icon": "fa-docker",
+    "uisettings": "dockerfile"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
