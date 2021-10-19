@@ -1,0 +1,53 @@
+{
+  "title": "7. Platform & pull/merge requests (Gitlab)",
+  "description": "",
+  "difficulty": "beginner",
+  "time": "10 minuten",
+  "authenticated": false,
+  "details": {
+    "steps": [{
+      "title": "7.0 Project aanmaken",
+      "text": "7.0_opdracht.md",
+      "courseData": "setup.sh",
+      "code": "pre-step.sh"
+    },{
+      "title": "7.1 Origin toevoegen",
+      "text": "7.1_opdracht.md"
+    },{
+      "title": "7.2 Add, commit & push",
+      "text": "7.2_opdracht.md",
+      "answer": "7.2_antwoord.md"
+    },{
+      "title": "7.3 Feature branch",
+      "text": "7.3_opdracht.md",
+      "answer": "7.3_antwoord.md"
+    },{
+      "title": "7.4 Pull request",
+      "text": "7.4_opdracht.md"
+    },{
+      "title": "7.5 Lokale repo updaten",
+      "text": "7.5_opdracht.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish":{
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "code.py",
+          "target": "~/myproject"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
