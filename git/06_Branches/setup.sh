@@ -2,8 +2,27 @@
 mkdir -p /root/myproject
 cd /root/myproject
 
+# Create new remote
+git init --bare /remote/myproject.git
+
+# --- Pietje
+
 # Setup Git
 git init
 
-# Cleanup
+git config --global user.name "Pietje Puk"
+git config --global user.email pietje@puk.com
+
+# Add remote
+git remote add origin /remote/myproject.git
+
+# Make first commit
+git add .
+git commit -m "Eerste bestand" .
+
+# Push it
+git push -u origin master
+
+# Remove this dir
 cd /root/
+rm -rf myproject
