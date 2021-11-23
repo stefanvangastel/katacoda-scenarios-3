@@ -19,3 +19,8 @@ git commit -m "Bugfix" .
 echo "Mooi stukje proza" > README.md
 git add .
 git commit -m "README toegevoegd" .
+
+# Make local change
+echo "def mijnAwesomeFunctie():\n    print('cool!')" >> committed.py
+
+clear
